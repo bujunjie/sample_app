@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+#  ssl_required  :new, :create if Rails.env.production?
+
   def new
     @title = "Sign in"
   end
