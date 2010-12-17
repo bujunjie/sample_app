@@ -1,4 +1,4 @@
-require 'rack/ssl'
+# require 'rack/ssl'
 SampleApp::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
